@@ -11,7 +11,7 @@ const Header: FC<HeaderProps> = observer(({ className }) => {
       <div className='text-center mr-2 flex items-center text-xl'>
         <DashboardOutlined />
       </div>
-      <div>工作台</div>
+      <div>练习工作台</div>
       <div className='grow' />
       <div className='mr-5'>Admin</div>
       <Button className='text-white' type='text' onClick={() => {}}>

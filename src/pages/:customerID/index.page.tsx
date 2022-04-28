@@ -3,7 +3,6 @@ import { observer } from 'mobx-react'
 import { useParams } from 'react-router-dom'
 import Page from '@/components/page'
 import Header from '@/components/header'
-import Drawer from '@/components/drawer'
 import { Button, Carousel } from 'antd'
 import './index.less'
 
@@ -25,7 +24,6 @@ const Index: FC<IndexProps> = ({ className }) => {
       header={<Header className='fixed top-0 w-full' />}
       style={{ paddingTop: 54 }}
     >
-      <Drawer className='' />
       <Viewport id='home'>
         <Carousel className='w-full' />
       </Viewport>
