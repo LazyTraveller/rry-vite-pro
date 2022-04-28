@@ -1,0 +1,35 @@
+@font-face {
+    font-family: rry-vite-pro;
+    src: url("rry-vite-pro.eot");src: url("rry-vite-pro.eot?c26d17f3#iefix") format("embedded-opentype"),
+             url("rry-vite-pro.woff2?c26d17f3") format("woff2"),
+             url("rry-vite-pro.woff?c26d17f3") format("woff"),
+             url("rry-vite-pro.ttf?c26d17f3") format("truetype"),
+             url("rry-vite-pro.svg?c26d17f3#rry-vite-pro") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="b-font"], [class*=" b-font"] {
+    font-family: 'rry-vite-pro' !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+}
+
+
+.b-font-add::before {
+    content: "\ea01";
+}
+
+.b-font-local::before {
+    content: "\ea02";
+}
+
+.b-font-menu-right::before {
+    content: "\ea03";
+}
+
+.b-font-phone::before {
+    content: "\ea04";
+}
+
